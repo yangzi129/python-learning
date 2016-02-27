@@ -1,0 +1,5 @@
+Hi guys, same problem here. 
+Has anyone found out if uninstalling Python tools from VS makes the problem disappear?
+Or do we just have to wait for the package?
+
+For me Python in VS is nice to have but not have to have.
