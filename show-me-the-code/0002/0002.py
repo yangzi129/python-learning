@@ -11,7 +11,7 @@ def file_read(filename):
 	return lines
 
 def mysql_write():
-	lines = file_read("result.txt")
+	lines = file_read("../0001/result.txt")
 	conn = mysql_connector.connect(user = 'root', password = '12345', database = 'test', use_unicode = True)
 	cursor = conn.cursor()
 	cursor.execute("creat table promo_code (id int(3) primary key, number varchar(8))")

@@ -24,6 +24,8 @@ if __name__ == '__main__':
 		while tmpStr in res:
 			tmpStr = generator()
 		res.add(tmpStr)
-	print(len(res))
+	# print(len(res))
+	f = open("result.txt", "w")
 	for s in res:
-		print(s)
+		f.write(s + "\n")
+	f.close()
